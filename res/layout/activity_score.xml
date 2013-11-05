@@ -1,0 +1,100 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_score"
+    tools:context=".MainActivity" >
+
+    
+    <ScrollView
+        android:id = "@+id/score_scroll_view"
+        android:layout_width="996dip"
+        android:layout_height="534dip"
+        android:layout_marginLeft="256dp"
+        android:layout_marginTop="188dp"
+        android:gravity="center">
+        
+        
+        <LinearLayout
+            android:id ="@+id/score_list"
+            android:layout_width="match_parent"
+       	 	android:layout_height="wrap_content" 
+       	 	android:orientation = "vertical"
+       	 	android:gravity="center">
+            
+        </LinearLayout>
+        
+        
+        
+    </ScrollView>
+    
+    
+
+    <Button
+        android:id="@+id/button_1"
+        android:layout_width="160dip"
+        android:layout_height="65dip"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/button_background"
+        android:onClick = "onClick"
+        android:gravity="center"
+        android:text="@string/easy"
+        android:textColor="#ffffff"
+        android:textSize="32sp" />
+
+    <Button
+        android:id="@+id/button_3"
+        android:layout_width="160dip"
+        android:layout_height="65dip"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="550dp"
+        android:background="@drawable/button_background"
+        android:onClick = "onClick"
+        android:gravity="center"
+        android:text="@string/hard"
+        android:textColor="#ffffff"
+        android:textSize="32sp" />
+
+    <Button
+        android:id="@+id/button_2"
+        android:layout_width="160dip"
+        android:layout_height="65dip"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="425dp"
+        android:background="@drawable/button_background"
+        android:onClick = "onClick"
+        android:gravity="center"
+        android:text="@string/medium"
+        android:textColor="#ffffff"
+        android:textSize="32sp" />
+    
+     
+
+</RelativeLayout><!--
+     
+        
+           <Button
+        android:id="@+id/start"
+        android:layout_width="200dip"
+        android:layout_height="70dip"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="400dp"
+        android:background="@drawable/button_blue_2"
+        android:gravity="center"
+        android:text="Start"
+        android:textColor="#ffffff"
+        android:textSize="32sp" />
+
+    <Button
+        android:id="@+id/high_scores"
+        android:layout_width="200dip"
+        android:layout_height="70dip"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="900dp"
+        android:background="@drawable/button_blue_2"
+        android:gravity="center"
+        android:text="High Scores"
+        android:textColor="#ffffff"
+        android:textSize="32sp" />
+-->

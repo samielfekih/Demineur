@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  	android:background ="@drawable/background_main"
+    tools:context=".MainActivity" >
+    
+    <Chronometer 
+        android:id = "@+id/chrono"
+        android:layout_width = "120dip"
+        android:layout_height = "60dip"
+        android:layout_marginLeft="55dip"
+        android:layout_marginTop = "315dip"
+        android:textColor="#ffffff"
+        android:gravity = "center"
+        android:textSize="32sp"/>
+    
+    <TextView
+        android:id="@+id/mine_number"
+        android:layout_width = "120dip"
+        android:layout_height = "60dip"
+        android:layout_marginLeft="55dip"
+        android:layout_marginTop = "600dip"
+        android:gravity = "center"
+  		android:textColor="#ffffff"
+        android:textSize="32sp" />
+    
+    
+
+    <LinearLayout
+        android:id="@+id/grid"
+        android:layout_width="996dip"
+        android:layout_height="534dip"
+        
+        android:layout_marginLeft="256dp"
+        android:layout_marginTop="188dp"
+        android:gravity="center"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+</RelativeLayout>

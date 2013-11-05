@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity" >
+    
+    <LinearLayout
+        android:id ="@+id/rules_layout"
+        android:layout_width="1000dip"
+ 	    android:layout_height="500dip"
+ 	     android:layout_marginTop="180dp"
+ 	      android:layout_marginLeft="250dp"
+ 	      android:gravity="center"
+ 	      android:orientation = "vertical"
+ 	    >
+
+ 	<TextView
+ 	    android:id="@+id/object"
+ 	    android:layout_width="match_parent"
+ 	    android:layout_height="wrap_content"
+ 	   android:text="@string/object"
+ 	    android:textColor="#ffffff"
+ 	    android:textSize="32sp" />
+
+ 	<TextView
+ 	    android:id="@+id/rules"
+ 	    android:layout_width="match_parent"
+ 	    android:layout_height="wrap_content"
+ 	    android:layout_marginTop = "20dp"
+ 	    android:text="@string/rules"
+ 	    android:textColor="#ffffff"
+ 	    android:textSize="32sp" />
+
+ 	<TextView
+ 	    android:id="@+id/howtoplay"
+ 	    android:layout_width="match_parent"
+ 	    android:layout_height="wrap_content"
+ 	   android:layout_marginTop = "20dp"
+ 	    android:text="@string/howtoplay"
+ 	    android:textColor="#ffffff"
+ 	    android:textSize="32sp" />
+ 	
+ 	</LinearLayout>
+
+</RelativeLayout>
+     
+        
+      

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Minesweeper</string>
+    
+     <!-- Dialog strings -->
+    <string name="game_over">Game Over !</string>
+    <string name="win">You Won !</string>
+    <string name="highscore">New High Score !</string>
+    <string name="enter_name">Enter your name :</string>
+    <string name="restart">Restart</string>
+    <string name="leave">Leave</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="want_restart">Do you want to restart ?</string>
+    
+    <!-- MenuActivity strings -->
+    <string name="highscores">High Scores</string>
+    <string name="start">Start</string>
+    <string name="help">Help</string>
+    <string name="easy">Easy</string>
+    <string name="medium">Medium</string>
+    <string name="hard">Hard</string>
+    
+     <!-- ScoreActivity strings -->
+    <string name="name">Name</string>
+    <string name="score">Duration</string>
+    <string name="no_scores">No high scores for this level !</string>
+    
+     <!-- HelpActivity strings -->
+    <string name="object">Find the empty squares while avoiding the mines. The faster you clear the board, the better your score.</string>
+    <string name="rules">The rules in Minesweeper are simple: \nUncover a mine, and the game ends. \nUncover an empty square, and you keep playing. \nUncover a number, and it tells you how many mines lay hidden in the eight surrounding squares—information you use to deduce which nearby squares are safe to click.</string>
+    <string name="howtoplay">Click on a square to uncover it. \nLong click on a mines square to put a flag on it. </string>
+    
+</resources>
